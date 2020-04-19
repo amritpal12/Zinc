@@ -1,0 +1,257 @@
+/***************** Navigation Bar *******************/
+
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+
+header {
+    background-color: white;
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: sans-serif;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+/******************************************************/
+
+
+/********************* Body ***************************/
+
+body {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #f0f8ff;
+    padding-left:8%;
+    padding-right: 8%
+}
+
+/******************************************************/
+
+/******************* Top Stories **********************/
+.main_head{
+    font-family: sans-serif;
+    /*border-bottom: 5px solid #89afd3;*/
+    width: 100%;
+
+    margin: 0;
+    /*text-align: center;*/
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: #6b00bd;
+    /*font-style: normal;*/
+    font-weight: 400px;
+    text-transform: uppercase;
+    /*clear: inherit;*/
+    /*line-height: 20px;*/
+}
+
+.topstories .column {
+    /*border: 1px solid #323232;*/
+    float: left;
+    width: auto;
+    padding: 2px;
+    /*background-color: red;*/
+}
+
+.topstories .row::after {
+    content: "";
+    /*clear: both;*/
+    display: table;
+}
+
+.topstories img{
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.topstories figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    max-width: 300px;
+    max-height: 200px;
+    font-size: 15px;
+    padding: 4px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/******************************************************/
+
+/******************* Side news *********************/
+
+.leftcol {
+    width:170px;
+    height:auto;
+    clear: both;
+    float:left;
+    padding: 5px;
+    padding-left: auto;
+    padding-right: auto;
+    background-color: #eee2f7;
+ }
+
+.newshead {
+    font-family: sans-serif;
+    border-bottom: 5px solid #89afd3;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #da0000;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.leftcol ul, .leftcol li{
+    list-style: none;
+    color: brown;
+    border-bottom: 2px solid #89afd3;
+    display: block;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #666;
+    font-size: 13px;
+    line-height: 18px;
+    word-wrap: break-word;
+}
+
+/******************************************************/
+
+
+/******************* Side news *********************/
+
+.rightcol {
+    width: 170px;
+    height: auto;
+    position: relative;
+    clear: both;
+    float: right;
+    padding: 5px;
+    padding-left: auto;
+    padding-right: auto;
+    background-color: #eee2f7;
+ }
+
+.newshead {
+    font-family: sans-serif;
+    border-bottom: 5px solid #89afd3;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #da0000;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.rightcol ul, .rightcol li{
+    list-style: none;
+    color: brown;
+    border-bottom: 2px solid #89afd3;
+    display: block;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #666;
+    font-size: 13px;
+    line-height: 18px;
+    word-wrap: break-word;
+}
+
+/******************************************************/
+
+/****************** Popular section *******************/
+
+.popular_sec{
+    display: inline-block;
+    margin-left: 10px;
+    /*clear: left;
+    float: right;*/
+    background-color: #b2f2ec;
+    margin-bottom: 10px;
+}
+
+.common_head{
+    font-family: sans-serif;
+    /*border-bottom: 5px solid #89afd3;*/
+    width: 100%;
+    margin: 0;
+    /*text-align: center;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+    color: #6b00bd;
+    /*font-style: normal;*/
+    font-weight: 400px;
+    text-transform: uppercase;
+    /*clear: inherit;*/
+    /*line-height: 20px;*/
+}
+
+.popular_sec .column {
+    /*border: 1px solid #323232;*/
+    float: left;
+    width: auto;
+    padding: 10px;
+    /*background-color: red;*/
+}
+
+.popular_sec .row::after {
+    content: "";
+    /*clear: both;*/
+    display: table;
+}
+
+.popular_sec img{
+    max-width: 250px;
+    max-height: 150px;
+
+}
+
+.popular_sec figcaption {
+    background-color: #bcc1cf;
+    color: #222;
+    font: italic smaller sans-serif;
+    max-width: 250px;
+    max-height: 150px;
+    font-size: 15px;
+    padding: 4px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
