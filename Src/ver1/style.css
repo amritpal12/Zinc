@@ -36,6 +36,15 @@ header {
 
 /**************************************/
 
+/************** Break paragraph ************/
+
+.para {
+    white-space: pre-line;
+}
+
+/******************************************/
+
+
 /* Add a gray background color with some padding */
 body {
   font-family: Arial;
@@ -67,6 +76,21 @@ body {
   width: 28%;
   padding-left: 20px;
 }
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn25 {   
+  float: left;
+  width: 25%;
+}
+
+/* Right column */
+.rightcolumn75 {
+  float: left;
+  width: 75%;
+  padding-left: 20px;
+}
+
 
 /* image */
 .postimg {
@@ -183,3 +207,58 @@ body {
 }
 
 /************************************************************/
+
+/**************** Table Specification **********************/
+
+.spec_table table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 50px;
+}
+
+.spec_table th{
+  background-color: #7d65eb;
+  color: #ffffff;
+}
+
+.spec_table td, th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.spec_table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/********************************************************/
+
+/***************** Read More Button ****************************/
+
+.button {
+  padding: 12px 32px;
+  text-align: center;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+#more {
+  display: none;
+}
+
+/*******************************************************/
